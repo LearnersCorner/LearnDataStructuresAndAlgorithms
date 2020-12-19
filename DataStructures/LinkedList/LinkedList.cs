@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures.LinkedList
 {
-    public record LinkedListNode<T>(T Value, LinkedListNode<T> Next = null, LinkedListNode<T> Prev = null);
+    public record LinkedListNode<T>(T Value, LinkedListNode<T> Next = null, LinkedListNode<T> Prev = null)
     {
 
     }
@@ -17,8 +17,8 @@ namespace DataStructures.LinkedList
         private DataStructures.LinkedList.LinkedListNode<T> Head = null;
         private DataStructures.LinkedList.LinkedListNode<T> Tail = null;
 
-    
 
+    }
 
 }
-}
+
